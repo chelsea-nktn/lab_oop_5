@@ -3,7 +3,7 @@ using System;
 using System.IO;             
 
 class FileDetails
-{
+{ 
     static void Main(string[] args)
     {
         int i;
