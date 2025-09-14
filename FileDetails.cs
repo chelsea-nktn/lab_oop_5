@@ -21,11 +21,11 @@ class FileDetails
             contents[i] = (char)reader.Read();
         }
 
-        /*foreach (char letter in contents)
+        foreach (char letter in contents)
         {
             Console.Write(letter);
         }
-        */
+        
         reader.Close();
         Console.WriteLine("FILE'S NAME: {0}", fileName);
         Console.WriteLine("FILE'S  SIZE: {0}", size);
@@ -34,14 +34,14 @@ class FileDetails
     }
     static void Summarize(char[] symbols)
     {
-        int vowels = 0, not_vowels = 0, lines = 1;
+        int vowels = 0, not_vowels = 0, lines = 0;
         foreach (char symbol in symbols)
         {
-            if ("AEIOUaeiou".IndexOf(symbol) != -1)
+            if ("AEIOUaeiou".IndexOf(symbol) != -1 && symbol != '\n')
             {
                 vowels++;
             }
-            else
+            if ("BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz".IndexOf(symbol) != -1 && symbol != '\n')
             {
                 not_vowels++;
             }

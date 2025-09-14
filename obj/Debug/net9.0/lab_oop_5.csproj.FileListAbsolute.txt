@@ -12,3 +12,4 @@ C:\Users\79112\Desktop\VUZ\lab_oop_5\obj\Debug\net9.0\refint\lab_oop_5.dll
 C:\Users\79112\Desktop\VUZ\lab_oop_5\obj\Debug\net9.0\lab_oop_5.pdb
 C:\Users\79112\Desktop\VUZ\lab_oop_5\obj\Debug\net9.0\lab_oop_5.genruntimeconfig.cache
 C:\Users\79112\Desktop\VUZ\lab_oop_5\obj\Debug\net9.0\ref\lab_oop_5.dll
+C:\Users\79112\Desktop\VUZ\lab_oop_5\obj\Debug\net9.0\lab_oop_5.sourcelink.json
